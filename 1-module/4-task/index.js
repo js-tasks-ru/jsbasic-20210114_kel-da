@@ -4,5 +4,11 @@
  * @returns {boolean}
  */
 function checkSpam(str) {
-  // ваш код...
+  if (str.includes('1XbeT')|| str.includes('xxxxx')) {
+    return true;
+  }
+  
+  else {
+    return false
+  }
 }
